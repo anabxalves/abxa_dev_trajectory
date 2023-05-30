@@ -1,3 +1,5 @@
+// Date: 30.5.2023
+
 QUESTÃO 1 - Defina uma função recursiva power :: Int-> Int-> Int que recebe dois números inteiros, x e y, e eleva um número x a potência de y.
 
 QUESTÃO 2 - Defina uma função recursiva elemNum :: Int-> [Int] -> Int que recebe um número inteiro x, e uma lista de inteiros xs e retorna o número de vezes que x aparece na lista xs.

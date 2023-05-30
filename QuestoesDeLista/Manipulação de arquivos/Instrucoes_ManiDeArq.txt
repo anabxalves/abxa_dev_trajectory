@@ -1,3 +1,5 @@
+// Date: 23.5.2023
+
 Pegue os arquivos main.c, bmp_utils.c e bmp_utils.h e os modifique de acordo com as tags // TODO nos respectivos arquivos.
 O objetivo final do programa é:
 - Abrir um arquivo .bmp, de 24 bits por pixel corretamente;
