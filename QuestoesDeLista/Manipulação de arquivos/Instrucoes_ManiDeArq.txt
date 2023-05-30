@@ -1,0 +1,15 @@
+Pegue os arquivos main.c, bmp_utils.c e bmp_utils.h e os modifique de acordo com as tags // TODO nos respectivos arquivos.
+O objetivo final do programa é:
+- Abrir um arquivo .bmp, de 24 bits por pixel corretamente;
+- Processar esse arquivo transformando-o em tons de cinza (grayscale);
+- Salvar o resultado em um arquivo BMP com outro nome, corretamente.
+
+Para isso, devem ser implementados os seguintes itens:
+- QUESTÃO 1 - Modifique a função main() para receber os nomes dos arquivos de entrada e saída.
+Use esses nomes para as funções de leitura e escrita dos arquivos BMP;
+- QUESTÃO 2 - Implemente um filtro que transforma uma imagem colorida em tons de cinza;
+- QUESTÃO 3 - Implemente corretamente a função bmp_write(), que escreve um arquivo BMP a partir das estruturas disponíveis em bmp_utils.h, de
+forma análoga à função bmp_read().
+- QUESTÃO 4 - Libere a memória alocada em BMPData.
+
+Todas estas modificações estão marcadas no código com a TAG // TODO
