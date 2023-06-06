@@ -13,6 +13,7 @@ void pushStack(struct input **head, int a);
 void insertQueue(struct input **head, int a);
 void insertPriorQ(struct input **head, int a);
 int popAll(struct input **head, int out);
+void myFree(struct input **head);
 
 int main()
 {
@@ -64,28 +65,9 @@ int main()
             else if(inPriorQ) printf("priority queue\n");
         }
 
-        struct input *temp;
-
-        while(stack != NULL)
-        {
-            temp = stack;
-            stack = stack->next;
-            free(temp);
-        }
-
-        while (queue != NULL)
-        {
-            temp = queue;
-            queue = queue->next;
-            free(temp);
-        }
-
-        while (priorQ != NULL)
-        {
-            temp = priorQ;
-            priorQ = priorQ->next;
-            free(temp);
-        }
+        myFree(&stack);
+        myFree(&queue);
+        myFree(&priorQ);
     }
     return 0;
 }
@@ -157,4 +139,15 @@ int popAll(struct input **head, int out)
 	free(temp);
     if (var == out) return 1;
     else return 0;
+}
+
+void myFree(struct input **head){
+    struct input *temp;
+
+    while(*head != NULL)
+    {
+        temp = *head;
+        *head = (*head)->next;
+        free(temp);
+    }
 }
