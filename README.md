@@ -1,11 +1,3 @@
-# Acompanhe meus estudos e desenvolvimento na programação!
-> Aqui ficará armazenado códigos desenvolvidos durante meu estudo na graduação.
-> Neste repositório, você encontrará todo o estudo e as codificações que não estão ou não foram utilizados em algum projeto (os códigos de projetos estão disponíveis em outros repositórios no meu perfil).
-
-
-Atualmente estou no 2º período da graduação em Ciência da Computação, desenvolvendo nas linguagens:
-- C
-- Haskell
-- Python
-- Html
-- Css
+# Follow my growth in the programming world!
+> In this repository, you'll have real time access to my day to day codes.
+> Here, I'll store all the studies and exercises I develop, as well as codes not used or discarted for personal projects.
